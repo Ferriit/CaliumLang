@@ -1,0 +1,16 @@
+{
+  "language": "c#",
+  "compile": false,
+  "version": "0.5",
+  "developer": "EdgeSoft",
+  "compilecommand": "",
+  "compiler": "",
+  "delfiles": [
+    "espmdata.json"
+  ],
+  "execute":
+  [
+    "dotnet build program.cs"
+  ],
+  "dependencies": []
+}
