@@ -3,8 +3,8 @@
   "compile": true,
   "version": "0.5",
   "developer": "EdgeSoft",
-  "compilecommand": "dotnet build Program.cs",
-  "compiler": "dotnet",
+  "compilecommand": "sudo dotnet build Program.cs",
+  "compiler": "dotnet build",
   "languageinstallcommands": [
     "sudo spkg update",
     "sudo spkg install dotnet-sdk-8.0"
