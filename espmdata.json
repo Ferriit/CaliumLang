@@ -5,6 +5,10 @@
   "developer": "EdgeSoft",
   "compilecommand": "dotnet build program.cs",
   "compiler": "dotnet",
+  "languageinstallcommands": [
+    "sudo spkg update",
+    "sudo spkg install dotnet-sdk-8.0"
+  ],
   "delfiles": [
     "espmdata.json"
   ],
