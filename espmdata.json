@@ -13,9 +13,7 @@
     "espmdata.json"
   ],
   "execute":[
-    "chmod +x program.cs",
-    "sudo mv program.cs /usr/local/bin",
-    "sudo chmod +x /usr/local/bin/program.cs"
+
   ],
   "dependencies": [],
   "description": "CaliumLang is a Functional Programming language that compiles to C++"
