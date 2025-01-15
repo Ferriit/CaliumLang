@@ -1,16 +1,14 @@
 {
   "language": "c#",
-  "compile": false,
+  "compile": true,
   "version": "0.5",
   "developer": "EdgeSoft",
-  "compilecommand": "",
-  "compiler": "",
+  "compilecommand": "dotnet build program.cs",
+  "compiler": "dotnet",
   "delfiles": [
     "espmdata.json"
   ],
-  "execute":
-  [
-    "dotnet build program.cs"
-  ],
-  "dependencies": []
+  "execute":[],
+  "dependencies": [],
+  "description": "CaliumLang is a Functional Programming language that compiles to C++"
 }
